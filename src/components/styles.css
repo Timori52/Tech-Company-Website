@@ -1,0 +1,543 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 14px;
+  /* identical to box height */
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  overflow-x: hidden;
+
+  /* Bg */
+
+  color: #09002a;
+}
+.myRectangle {
+  position: absolute;
+  width: 36rem;
+  height: 450px;
+
+  left: 0px;
+  top: 0px;
+}
+#navbarNavAltMarkup {
+  justify-content: flex-end;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  padding-bottom: 35%;
+  margin-top: 1px;
+}
+
+.navbar-nav {
+  margin-right: -5.5703125rem;
+  margin-top: 10px;
+  transform: uppercase;
+}
+
+.src1 {
+  position: absolute;
+  left: 4%;
+  width: 52px;
+
+  top: 17px;
+
+  /* Cloud */
+
+  background: #d560e4;
+}
+
+.src2 {
+  /* infenito */
+
+  position: absolute;
+  width: 151px;
+  height: 28px;
+  left: 119px;
+  top: 24px;
+
+  font-family: "Paytone One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 10px;
+  letter-spacing: 0.3px;
+}
+/* Welcome to Infenito */
+
+h5 {
+  white-space: nowrap;
+  position: absolute;
+
+  left: 67px;
+  top: 120.34px;
+
+  /* Subtitle */
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 0px;
+
+  /* Cloud */
+
+  color: #fafcfe;
+}
+h1 {
+  white-space: pre-wrap;
+  position: absolute;
+  width: 463px;
+
+  left: 50px;
+
+  top: 169px;
+
+  /* Header 1 */
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 57px;
+  letter-spacing: -0.02em;
+
+  /* Cloud */
+
+  color: #fafcfe;
+}
+
+.btn1 {
+  position: absolute;
+  top: 320px;
+  left: 62px;
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  background: transparent;
+  padding: 15px 70px;
+  border-radius: 20px;
+  font-weight: normal;
+  text-transform: uppercase;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn1:hover {
+  color: black;
+  box-shadow: 0 5px 15px rgba(206, 110, 212, 0.961);
+  background-color: azure;
+  font-weight: 200;
+}
+.src3 {
+  position: absolute;
+
+  width: 575px;
+  height: 500.74px;
+  left: 890.91px;
+  top: 53.97px;
+  border-radius: 24px;
+  z-index: -1;
+}
+
+.EllipseInner {
+  position: absolute;
+  width: 352px;
+  height: 296px;
+  left: 1251px;
+  top: -132.66px;
+  opacity: 0.14;
+   z-index: -1;
+}
+.EllipseOuter {
+  position: absolute;
+  width: 558px;
+  height: 558px;
+  left: 1071px;
+  top: -220.66px;
+  opacity: 0.14;
+  z-index: -1;
+}
+#head {
+  position: absolute;
+  margin-top: 12px;
+  white-space: pre-wrap;
+
+  /* Header 3 */
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: -0.02em;
+}
+#head::before {
+  content: "";
+  background-color: #f050be;
+  height: 5px;
+  width: 130px;
+  border: none;
+  margin-left: 7.8px;
+  margin-right: auto;
+  display: block;
+}
+
+.WhatWeTeach {
+  position: absolute;
+  margin-top: 9.75rem;
+  margin-left: 8.1875rem;
+  height: 40rem;
+  cursor: pointer;
+}
+/* @media screen and (max-width: 600px) {
+  .WhatWeTeach{
+    margin-top:430px;
+    margin-left:0px;
+  }
+} */
+
+.serviceProvides {
+  margin-top: 3.125rem;
+
+  margin-left: 4.4375rem;
+}
+
+.services {
+  margin-top: 1.25rem;
+  height: 47.25rem;
+  width: 100%;
+  background-color: #fffafd;
+}
+.aboveServiceBorder {
+  border-radius: 5px;
+  max-width: 130px;
+  margin-top: 40px;
+}
+
+.h3-heading {
+  font-family: "Work Sans";
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.Service-para {
+  font-family: "Work Sans";
+  margin: 20px;
+  font-weight: 600;
+}
+
+.aboveLetsSeeHowItsWorkBorder {
+  border-radius: 5px;
+  width: 130px;
+  margin-top: 40px;
+  transition: width linear 0.9s;
+}
+.aboveLetsSeeHowItsWorkBorder:hover {
+  width: 200px;
+  /* border: none; */
+}
+
+.h3-heading-letsHowItsWork {
+  white-space: pre-wrap;
+}
+
+#home::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  left: 888.2px;
+  top: 46px;
+  /* bottom:500px; */
+  background-color: #f050be;
+  transition: all ease-in-out 0.2s;
+}
+
+#home:hover::after {
+  width: 5%;
+  left: 66%;
+  border-radius: 15px;
+}
+
+#home:hover {
+  color: #f050be;
+}
+#portfolio::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  left: 1029.52px;
+  top: 46px;
+  /* bottom:500px; */
+  background-color: #f050be;
+  transition: all ease-in-out 0.2s;
+ 
+}
+
+#portfolio:hover::after {
+  width: 7%;
+  left: 980px;
+  border-radius: 15px;
+}
+
+#porforlio:hover {
+  color: #f050be;
+}
+#about::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  left: 1165.24px;
+  top: 46px;
+  /* bottom:500px; */
+  background-color: #f050be;
+  transition: all ease-in-out 0.2s;
+}
+
+#about:hover::after {
+  width: 7%;
+  left: 87%;
+  border-radius: 15px;
+}
+#about:hover {
+  color: #f050be;
+}
+#pricing::after {
+  content: "";
+  position: absolute;
+  width: 0px;
+  height: 5px;
+  left: 101%;
+  top: 46px;
+  background-color: #f050be;
+  transition: all ease-in-out 0.2s;
+}
+
+#pricing:hover::after {
+  width: 6%;
+  left: 98%;
+  border-radius: 15px;
+}
+
+#pricing:hover {
+  color: #f050be;
+}
+
+.circle1,
+.circle2,
+.circle3,
+.circle4 {
+  width: 169.75px;
+  height: 169.75px;
+  border-radius: 100%;
+  border: 12px solid rgba(246, 246, 247, 0.84);
+  margin-top: 95px;
+  margin-left: 85px;
+  border-style: outset;
+  
+}
+
+.imageInCircle3 {
+  height: 53px;
+  margin-top: 41px;
+}
+.imageInCircle4 {
+  height: 40px;
+  background: linear-gradient(270deg, black 50%, transparent 50%), linear-gradient(0deg, black 50%, lightgray 50%);
+
+  margin-top: 48px;
+}
+.imageInCircle1 {
+  height: 40px;
+
+  margin-top: 48px;
+}
+.imageInCircle2 {
+  height: 40px;
+
+  margin-top: 48px;
+}
+
+.Support{
+font-family: 'Open Sans';
+
+}
+
+.stillHaveADoubtBg{
+  border-radius: 50px;
+  background-color: #FFE5F7;
+  height:620.65px;
+  width: 1087px;
+  z-index: -1;
+}
+.StllHaveADoubtBorder{
+  /* content: ''; */
+  position: absolute;
+  background-color: #f050be;
+  height: 5px;
+  width: 130px;
+  display: block;
+  margin-left: 29.3125rem;
+  border-radius: 10px;
+}
+
+.betweenImagePara{
+  position: absolute;
+  left:429px;
+  margin-top: 300px;
+  white-space: pre-wrap;
+}
+.betweenParaBorder{
+  
+  position: absolute;
+  background-color: #f050be;
+  height: 5px;
+  width: 130px;
+  display: block;
+  margin-left: 12.5rem !important;
+  margin-top:20.875rem !important ;
+  border-radius: 10px;
+}
+
+.betweenImagePara2{
+  position: absolute;
+  right:429px;
+  margin-top: 300px;
+  white-space: pre-wrap;
+}
+.betweenParaBorder2{
+  
+  position: absolute;
+  background-color: #f050be;
+  height: 5px;
+  width: 152px;
+  display: block;
+  right: 434px;
+  margin-top:334px ;
+  border-radius: 10px;
+}
+
+.BuildSomething{
+
+  position: absolute;
+  height: 5px;
+  width: 120px;
+  border-radius: 10px;
+  background-color: #f050be;
+  margin: 68px 0;
+
+}
+.LetsBuildPara{
+  position: relative;
+  top: 80px;
+  white-space: pre-wrap;
+  line-height: 39.68px;
+  /* font-size: 24px; */
+  
+}
+.paragraph{
+  position: relative;
+  top: 90px;
+  font-weight: 600;
+white-space: pre-wrap;
+line-height: 20px;
+}
+
+.form{
+position: relative;
+  background: url("./parts/formGradient.png") no-repeat;
+  width: 400px;
+  color: white;
+  height: 700px;
+  width: 482px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  left: 167px;
+  
+}
+.chutiya{
+  margin-top: 55px;
+}
+.sendButton{
+  font-family: "Work Sans";
+  margin-top: 10px;
+  color:#fafcfe;
+  transition: all 0.2s ease-in-out;
+  font-size: 15px;
+}
+
+.sendButton:hover{
+  box-shadow: 0 5px 15px rgba(139, 99, 220, 0.961);
+  border-radius: 20px;
+}
+.followUsOn{
+  position: relative ;
+  top: -103px;
+  left: 24px;
+}
+.instagram{
+cursor: pointer;
+}
+.twitter{
+cursor: pointer;
+}
+.linkedin{
+cursor: pointer;
+}
+
+.FooterInnerEllipse{
+  position: absolute;
+  right: -33px;
+margin-top: -99px;
+  opacity: 0.2;
+}
+.FooterOuterEllipse{
+  position: absolute;
+  right: -22px;
+  margin-top: -187px;
+  opacity: 0.2;
+
+}
+.list{
+  list-style-type: none;
+  color: white;
+  position: absolute;
+  top: 43px;
+  left: 87px;
+  line-height: 54px;
+  cursor: pointer;
+}
+
+.FAboutUs:hover,.FPricing:hover,.FPortfolio:hover,.FContactUs:hover{
+
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+.ContactList{
+  list-style-type: none;
+  color: white;
+  position: absolute;
+  top: 43px;
+  left: 430px;
+  line-height: 54px;
+  cursor: pointer;
+
+}
+.Number{
+
+  background-color: #0E0E2C;
+  border: none;
+  color: white;
+  font-size: 16px;
+}
